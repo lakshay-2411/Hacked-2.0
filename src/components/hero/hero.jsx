@@ -20,7 +20,7 @@ const hero = () => {
       action: "click",
       label: "register",
     });
-    window.open("https://forms.google.com/");
+    window.open("https://forms.google.com");
   };
   const handleCardClicks = (card) => {
     ReactGA.event({
@@ -88,10 +88,28 @@ const hero = () => {
       clearInterval(interval);
     };
   }, []);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulating a delay to demonstrate loading
+    const timeout = setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+
+    return () => clearTimeout(timeout);
+  }, []);
   return (
     <React.Fragment>
       <div className="parent_hero">
         {/* <div className="progress_bar"></div> */}
+        <div>
+      {loading && (
+        <div id="loading-overlay">
+          <img src="/images/loading.gif" alt="Loading..." />
+        </div>
+      )}
+      {/* Your other content goes here */}
+    </div>
         <div className=" tag-hero-mobile">
           <img
             src="/images/1.jpg"
