@@ -90,26 +90,27 @@ const hero = () => {
   }, []);
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    // Simulating a delay to demonstrate loading
-    const timeout = setTimeout(() => {
-      setLoading(false);
-    }, 3000);
+  // useEffect(() => {
+  //   // Simulating a delay to demonstrate loading
+  //   const timeout = setTimeout(() => {
+  //     setLoading(false);
+  //   }, 3000);
 
-    return () => clearTimeout(timeout);
-  }, []);
+  //   return () => clearTimeout(timeout);
+  // }, []);
+  
   return (
     <React.Fragment>
       <div className="parent_hero">
         {/* <div className="progress_bar"></div> */}
-        <div>
+{/*         <div>
       {loading && (
         <div id="loading-overlay">
           <img src="/images/loading.gif" alt="Loading..." />
         </div>
       )}
           {/* Your other content goes here */}
-    </div>
+    </div> */}
         <div className=" tag-hero-mobile">
           <img
             src="/images/1.jpg"
