@@ -187,90 +187,91 @@ const hero = () => {
           </div>
 
           <div className="right_side">
-            {/* -------------------------- Column 1 * ---------------------------------- */}
-
-            <div className="col1 animated-div">
-              <h3 className="text">
-                <div>
+            <div className="right_side_top">
+              {/* -------------------------- Column 1 * ---------------------------------- */}
+              <div className="col1 animated-div">
+                <h3 className="text">
                   <div>
-                    <div> 8</div> <div> th</div>{" "}
-                  </div>{" "}
-                  September
-                </div>
-                <Calender className="calender-icon" />
-              </h3>
-              <p
-                className="text2"
-                onClick={() => handleCardClicks("/guidelines")}
-              >
-                Guidelines <ArrowRightWhite className="arrow-right-icon" />
-              </p>
-              <p className="text3" onClick={() => handleCardClicks("/events")}>
-                Events <ArrowRightWhite className="arrow-right-icon" />
-              </p>
-            </div>
-            {/* -------------------------- Column 2 * ---------------------------------- */}
-            <div className="col2 animated-div">
-              <h3 className="text4">
-                Information Details <Info className="info-icon" />
-              </h3>
-              <p className="text5" onClick={() => handleCardClicks("/about")}>
-                About
-                <ArrowRightWhite className="arrow-right-icon" />
-              </p>
-              {/* <p className="text6" onClick={() => handleCardClicks("/judges")}>
-                Judge Panel
-                <ArrowRightWhite className="arrow-right-icon" />
-              </p> */}
-            </div>
-            {/* -------------------------- Column 3 * ---------------------------------- */}
-            <div className="col3 animated-div">
-              <div className="flex justify-items-start">
-                <h3 className="text7">Problem Statements</h3>
-              </div>
-              <p className="text8" onClick={() => handleCardClicks("/set1")}>
-                Collection 1 <ArrowRightBlack className="arrow-right-icon" />
-              </p>
-              <p className="text9" onClick={() => handleCardClicks("/set2")}>
-                Collection 2 <ArrowRightBlack className="arrow-right-icon" />
-              </p>
-            </div>
-            {/* -------------------------- Column 4  ---------------------------------- */}
-            <div
-              className="col4 animated-div"
-              onClick={() =>
-                window.open("https://maps.app.goo.gl/ZqeowLFUaULmdeRR7")
-              }
-            >
-              <h3 className="text10">
-                Venue <Location className="location-icon" />
-              </h3>
-              <div className="flex flex-col ">
-                <p className="text-white pt-[2vh] text-[1vw] venue-text-mobile">
-                  BMU Munjal University
+                    <div>
+                      <div> 8</div> <div> th</div>{" "}
+                    </div>{" "}
+                    September
+                  </div>
+                  <Calender className="calender-icon" />
+                </h3>
+                <p
+                  className="text2"
+                  onClick={() => handleCardClicks("/guidelines")}
+                >
+                  Guidelines <ArrowRightWhite className="arrow-right-icon" />
                 </p>
-                {/* <p className="text-white  text-[0.8vw] ">
-                  National Highway 45, Potheri, SRM Nagar, Kattankulathur, Tamil
-                  Nadu - 603203
+                <p className="text3" onClick={() => handleCardClicks("/events")}>
+                  Events <ArrowRightWhite className="arrow-right-icon" />
+                </p>
+              </div>
+              {/* -------------------------- Column 3 * ---------------------------------- */}
+              <div className="col3 animated-div">
+                <div className="flex justify-items-start">
+                  <h3 className="text7">Problem Statements</h3>
+                </div>
+                <p className="text8" onClick={() => handleCardClicks("/set1")}>
+                  Collection 1 <ArrowRightBlack className="arrow-right-icon" />
+                </p>
+                <p className="text9" onClick={() => handleCardClicks("/set2")}>
+                  Collection 2 <ArrowRightBlack className="arrow-right-icon" />
+                </p>
+              </div>
+            </div>
+            <div className="right_side_bottom">
+              {/* -------------------------- Column 2 * ---------------------------------- */}
+              <div className="col2 animated-div">
+                <h3 className="text4">
+                  Information Details <Info className="info-icon" />
+                </h3>
+                <p className="text5" onClick={() => handleCardClicks("/about")}>
+                  About
+                  <ArrowRightWhite className="arrow-right-icon" />
+                </p>
+                {/* <p className="text6" onClick={() => handleCardClicks("/judges")}>
+                  Judge Panel
+                  <ArrowRightWhite className="arrow-right-icon" />
                 </p> */}
-                <div className="round"></div>
+              </div>
+              {/* -------------------------- Column 6  ---------------------------------- */}
+              <div className="col6 animated-div">
+                <h3 className="text13">
+                  Organized By
+                  <div className="flex justify-center items-center gap-1"></div>
+                </h3>
+                <div className="flex items-start justify-between flex-col">
+                  <a href="https://www.instagram.com/acm_bmu/" target="_blank" className="text14" style={{ textDecoration: 'none' }} onMouseEnter={(e) => e.target.style.color = 'blue'} onMouseLeave={(e) => e.target.style.color = 'white'}>ACM </a>
+                  <a href="https://www.instagram.com/sata_bmu/" target="_blank" className="text15" style={{ textDecoration: 'none' }} onMouseEnter={(e) => e.target.style.color = 'blue'} onMouseLeave={(e) => e.target.style.color = 'white'}>SATA</a>
+                  <a href="https://www.instagram.com/scimat_bmu/" target="_blank" className="text15" style={{ textDecoration: 'none' }} onMouseEnter={(e) => e.target.style.color = 'blue'} onMouseLeave={(e) => e.target.style.color = 'white'}>SciMat</a>
+                  <div className="round2"></div>
+                </div>
+              </div>
+              {/* -------------------------- Column 4  ---------------------------------- */}
+              <div className="col4 animated-div"
+                onClick={() =>
+                  window.open("https://maps.app.goo.gl/ZqeowLFUaULmdeRR7")
+                }
+              >
+                <h3 className="text10">
+                  Venue <Location className="location-icon" />
+                </h3>
+                <div className="flex flex-col ">
+                  <p className="text-white pt-[2vh] text-[1vw] venue-text-mobile">
+                    BMU Munjal University
+                  </p>
+                  {/* <p className="text-white  text-[0.8vw] ">
+                    National Highway 45, Potheri, SRM Nagar, Kattankulathur, Tamil
+                    Nadu - 603203
+                  </p> */}
+                  <div className="round"></div>
+                </div>
               </div>
             </div>
-            {/* -------------------------- Column 5  ---------------------------------- */}
-            <div className="col5 "></div>
-            {/* -------------------------- Column 6  ---------------------------------- */}
-            <div className="col6 animated-div">
-              <h3 className="text13">
-                Organized By
-                <div className="flex justify-center items-center gap-1"></div>
-              </h3>
-              <div className="flex items-start justify-between flex-col">
-                <p className="text14">ACM </p>
-                <p className="text15">SATA</p>
-                <p className="text15">SciMat</p>
-                <div className="round2"></div>
-              </div>
-            </div>
+            
           </div>
         </section>
         {/* -------------------------- Page 2 -------------------------- */}
