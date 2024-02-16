@@ -279,7 +279,9 @@ const hero = () => {
       <div className="bg-sep"></div>
       <Schedule />
       <div className="bg-sep"></div>
+      <div className="darkmode">
       <Sponsors />
+      </div>
       <Footer />
     </React.Fragment>
   );
