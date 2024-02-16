@@ -110,25 +110,19 @@ const hero = () => {
       )}
       {/* Your other content goes here */}
     </div>
-        <div className=" tag-hero-mobile">
+        <div className="tag-hero-mobile">
           <img
             src="/images/1.jpg"
             alt="srm logo"
-            width="40vw"
             className="hero-srm-logo"
           />
-          <div className="tag">
-            <div>
-              <div>Celebrating 67th</div>
-              <span>th</span>
-            </div>
-            Milestones Day of BMU
-          </div>
+          <p className="tag">
+            Celebrating 67<sup>th</sup> Milestones Day of BMU
+          </p>
           <img
             src="/images/1.jpg"
-            alt="srmvec logo"
-            width="60vw"
-            className="hero-srmvec-logo"
+            alt="srm logo"
+            className="hero-srm-logo"
           />
         </div>
 
@@ -139,7 +133,6 @@ const hero = () => {
 
             <div className="title1">
               <span className="hackathon"> {"Hacked 2.0"}</span>
-              <br />
               {/* <p className="tag1"> A National Level 24 Hour Hackathon</p> */}
               {/* <span className="hackathon">Hackathon</span> */}
               <p className="description">
@@ -244,9 +237,9 @@ const hero = () => {
                   <div className="flex justify-center items-center gap-1"></div>
                 </h3>
                 <div className="flex items-start justify-between flex-col">
-                  <a href="https://www.instagram.com/acm_bmu/" target="_blank" className="text14" style={{ textDecoration: 'none' }} onMouseEnter={(e) => e.target.style.color = 'blue'} onMouseLeave={(e) => e.target.style.color = 'white'}>ACM </a>
-                  <a href="https://www.instagram.com/sata_bmu/" target="_blank" className="text15" style={{ textDecoration: 'none' }} onMouseEnter={(e) => e.target.style.color = 'blue'} onMouseLeave={(e) => e.target.style.color = 'white'}>SATA</a>
-                  <a href="https://www.instagram.com/scimat_bmu/" target="_blank" className="text15" style={{ textDecoration: 'none' }} onMouseEnter={(e) => e.target.style.color = 'blue'} onMouseLeave={(e) => e.target.style.color = 'white'}>SciMat</a>
+                  <p className="text14">ACM </p>
+                  <p className="text15">SATA</p>
+                  <p className="text15">SciMat</p>
                   <div className="round2"></div>
                 </div>
               </div>
@@ -280,9 +273,7 @@ const hero = () => {
       <div className="bg-sep"></div>
       <Schedule />
       <div className="bg-sep"></div>
-      <div className="darkmode">
       <Sponsors />
-      </div>
       <Footer />
     </React.Fragment>
   );

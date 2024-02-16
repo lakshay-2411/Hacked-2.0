@@ -15,32 +15,16 @@
   width: 500px; /* Adjust the size of the loading image as needed */
   height: 350px;
 }
-
 .parent_hero {
   padding-right: 1vw;
   padding-left: 6vw;
   padding-top: 3vh;
-  margin-top: 30px;
+  margin-top: 42px;
   position: relative;
   isolation: isolate;
+  background-color: black;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     padding: 0 2vw;
-  }
-}
-.parent_hero::after {
-  content: "";
-  position: absolute;
-  z-index: -2;
-  inset: 0;
-  background-image: url("/images/black.svg");
-}
-@media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
-  .parent_hero::after {
-    content: "";
-    position: absolute;
-    z-index: -2;
-    inset: 0;
-    background-image: url("/images/black.svg");
   }
 }
 
@@ -58,63 +42,68 @@
     gap: 2vw;
   }
 }
+.tag-hero-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .hero-srm-logo {
+  width: 60px;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     width: 10vw;
   }
 }
 
-.hero-srmvec-logo {
-  @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
-    width: 15vw;
-  }
+.tag-hero-mobile .tag {
+  font-family: poppins;
+  font-weight: bold;
+  font-size: 1.3em;
+  border: 1px solid white;
+  padding: 0.25em 0.5em;
+  border-radius: 8em;
 }
 
-.parent_hero .tag {
-  position: relative;
-  font-family: poppins;
-  font-weight: 500;
-  color: white;
-  border: 1px solid grey;
-  font-size: 1.1vw;
-  padding: 0vh 0.4vw;
-  border-radius: 1vw;
-  margin-bottom: 2vh;
-  margin-top: 5vh;
-  font-weight: 600;
-  display: flex;
-  gap: 0.3vw;
-  @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
-    font-size: 2.5vw;
-    padding: 0.2vh 1vw;
-    margin-top: 3vh;
-    text-align: center;
-    font-weight: 600;
-    gap: 1vw;
-  }
-}
-.tag > div {
-  display: flex;
-  align-items: flex-start;
-}
-.tag > div > span {
-  font-size: 0.7vw;
-  @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
-    font-size: 2vw;
-  }
-}
+/* .parent_hero .tag { */
+/*   font-family: poppins; */
+/*   font-weight: 500; */
+/*   color: white; */
+/*   border: 1px solid grey; */
+/*   font-size: 1.1vw; */
+/*   border-radius: 1vw; */
+/*   margin-bottom: 2vh; */
+/*   margin-top: 5vh; */
+/*   font-weight: 600; */
+/*   display: flex; */
+/*   gap: 0.3vw; */
+/*   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) { */
+/*     font-size: 2.5vw; */
+/*     padding: 0.2vh 1vw; */
+/*     margin-top: 3vh; */
+/*     text-align: center; */
+/*     font-weight: 600; */
+/*     gap: 1vw; */
+/*   } */
+/* } */
+
 .parent_hero .column {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  align-items: center;
   gap: 100px;
+  width: 100%;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 100%;
   }
+}
+.left_side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .parent_hero .column .left_side {
   padding-top: 2vh;
@@ -185,7 +174,7 @@
   content: "";
   z-index: -1;
   position: absolute;
-  height: 4vh;
+  height: 0.5em;
   width: 0;
   left: 0;
   bottom: 1vh;
@@ -194,7 +183,7 @@
 }
 @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
   .parent_hero .title1 .hackathon::after {
-    height: 2vh;
+    height: 0.5em;
   }
 }
 @keyframes line {
@@ -206,7 +195,6 @@
 .parent_hero .title1 .description {
   margin-top: 8vh;
   font-size: 1.2vw;
-  color: white;
   font-weight: 500;
   font-family: "arial";
   line-height: normal;
@@ -226,15 +214,16 @@
 .register_now {
   margin-top: 5vh;
   position: relative;
-  padding: 0.5vh 0.5vw;
+  padding: 0.25em 0.5em;
   background-color: black;
-  border-radius: 2vw;
+  border: 1px solid white;
+  border-radius: 2em;
   cursor: pointer;
   color: white;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 20vw;
+  width: fit-content;
   height: fit-content;
   transition: all 0.3s ease-in-out;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
@@ -365,6 +354,7 @@
   display: flex;
   flex-direction: column;
   gap: 80px;
+  width: 70%;
   @media screen and (min-width: 768px) and (max-width:1400px){
     display: flex;
     flex-direction: column;
