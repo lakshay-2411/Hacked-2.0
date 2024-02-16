@@ -89,67 +89,14 @@ const Navbar = () => {
           <div className="title" onClick={() => window.open("/", "_self")}>
             <img src="/images/logo.jpeg" className="logo" alt="Logo" />
             <span>Hacked 2.0</span>
-            {/* <div className="socials">
-              <div className="insta">
-                <SocialIcon
-                  onClick={handleInsta}
-                  network="instagram"
-                  style={{
-                    height: "3vw",
-                    width: "3vw",
-                  }}
-                />
-              </div>
-              <div className="fb">
-                <SocialIcon
-                  onClick={handleFb}
-                  network="facebook"
-                  style={{
-                    height: "3vw",
-                    width: "3vw",
-                  }}
-                />
-              </div>
-
-              <div className="yt">
-                <SocialIcon
-                  onClick={handleYt}
-                  network="youtube"
-                  style={{
-                    height: "3vw",
-                    width: "3vw",
-                  }}
-                />
-              </div>
-              <div className="discord-icon">
-                <SocialIcon
-                  onClick={handleDiscord}
-                  network="discord"
-                  style={{
-                    height: "3vw",
-                    width: "3vw",
-                  }}
-                />
-              </div>
-            </div> */}
           </div>
 
           <ul>
-            <li>
-              <p onClick={() => window.open("/", "_self")}>Home</p>
-            </li>
-            <li>
-              <p onClick={() => handleScroll("#agenda")}>Agenda</p>
-            </li>
-            <li>
-              <p onClick={() => handleScroll("#schedule")}>Schedule</p>
-            </li>
-            <li>
-              <p onClick={() => handleScroll("#faqs")}>FAQs</p>
-            </li>
-            <li>
-              <p onClick={() => handleScroll("#contact")}>Contact</p>
-            </li>
+            <li onClick={() => window.open("/", "_self")}>Home</li>
+            <li onClick={() => handleScroll("#agenda")}>Agenda</li>
+            <li onClick={() => handleScroll("#schedule")}>Schedule</li>
+            <li onClick={() => handleScroll("#faqs")}>FAQs</li>
+            <li onClick={() => handleScroll("#contact")}>Contact</li>
           </ul>
           <div className="last">
             <h2 className="register">
