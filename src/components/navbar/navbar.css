@@ -13,7 +13,7 @@
   align-items: center;
   gap: 0.5vw;
   font-weight: 600;
-  font-size: 1.8vw;
+  font-size: 2em;
   font-family: mars;
   cursor: pointer;
 }
@@ -25,6 +25,7 @@
   top: 6vh;
   left: 2.2vw;
 }
+
 @keyframes socialsAnim {
   0% {
     height: 0vh;
@@ -95,7 +96,7 @@
   }
 }
 .logo {
-  width: 3vw;
+  width: 1.5em;
 }
 .parent .components {
   font-family: inherit;
@@ -106,7 +107,7 @@
   padding: 0.3vw;
   /* border-radius: 1vw; */
   position: fixed;
-  width: 98.78%;
+  width: 100%;
   top: 0;
   left: 0;
   padding-right: 28px;

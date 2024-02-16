@@ -87,8 +87,8 @@ const Navbar = () => {
       <div className="parent">
         <div className="components">
           <div className="title" onClick={() => window.open("/", "_self")}>
-            <img src="/images/3.png" className="logo" alt="Logo" />
-            Hacked 2.0
+            <img src="/images/logo.jpeg" className="logo" alt="Logo" />
+            <span>Hacked 2.0</span>
             {/* <div className="socials">
               <div className="insta">
                 <SocialIcon
