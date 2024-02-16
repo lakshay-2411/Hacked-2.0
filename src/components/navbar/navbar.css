@@ -20,7 +20,7 @@
 .parent .title::after {
   content: "";
   position: absolute;
-  border-left: 4px solid rgb(0, 116, 251);
+  /* border-left: 4px solid rgb(0, 116, 251); */
   height: 0vh;
   top: 6vh;
   left: 2.2vw;
