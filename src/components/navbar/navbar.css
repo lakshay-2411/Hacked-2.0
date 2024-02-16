@@ -11,20 +11,21 @@
 .parent .title {
   display: flex;
   align-items: center;
-  gap: 0.5vw;
+  gap: 0.25em;
   font-weight: 600;
-  font-size: 1.8vw;
-  font-family: mars;
+  font-size: 2rem;
   cursor: pointer;
 }
-.parent .title::after {
-  content: "";
-  position: absolute;
-  /* border-left: 4px solid rgb(0, 116, 251); */
-  height: 0vh;
-  top: 6vh;
-  left: 2.2vw;
+
+.parent .title span {
+  font-size: 1.25rem;
+  font-family: mars;
+
+  @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
+    display: none;
+  }
 }
+
 @keyframes socialsAnim {
   0% {
     height: 0vh;
@@ -95,7 +96,7 @@
   }
 }
 .logo {
-  width: 3vw;
+  width: 1.75em;
 }
 .parent .components {
   font-family: inherit;
@@ -106,7 +107,7 @@
   padding: 0.3vw;
   /* border-radius: 1vw; */
   position: fixed;
-  width: 98.78%;
+  width: 100%;
   top: 0;
   left: 0;
   padding-right: 28px;
@@ -122,16 +123,24 @@
 .components ul li {
   font-family: fira sans condensed;
   letter-spacing: 2px;
-  font-size: 1vw;
+  font-size: 1.25rem;
   font-weight: 500;
-}
-.components ul li p {
+
+
+
   display: block;
   position: relative;
   text-decoration: none;
   color: white;
   padding: 0.2vw;
   cursor: pointer;
+
+  @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
+    font-size: 1rem;
+  }
+}
+.components ul li p {
+
 }
 .components ul li p::after {
   content: "";
@@ -164,7 +173,7 @@
   font-family: poppins;
   font-size: 1.2vw;
   padding: 0.5vh 1vw;
-  border: 2px solid slategray;
+  border: 1px solid white;
   border-radius: 0.5vw;
 }
 
@@ -263,9 +272,9 @@
 .register-mobile {
   position: relative;
   font-family: poppins;
-  font-size: 4vw;
+  font-size: 1.5rem;
   padding: 0vh 1vw;
-  /* border: 2px solid slategray; */
-  /* border-radius: 1vw; */
+  border: 2px solid slategray;
+  border-radius: 0.5em;
   cursor: pointer;
 }

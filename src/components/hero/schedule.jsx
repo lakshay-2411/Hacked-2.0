@@ -22,7 +22,7 @@ const schedule = () => {
     const observer = new IntersectionObserver(callback, options);
     const divs = document.querySelectorAll("#timeline");
     divs.forEach((div) => observer.observe(div));
-  });
+  }, []);
   return (
     <React.Fragment>
       <div className="mainSchedule" id="schedule">

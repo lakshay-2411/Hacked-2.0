@@ -103,6 +103,9 @@ html,
 body {
   overflow-x: hidden;
   scroll-behavior: smooth;
+
+  color: white;
+  background: black;
 }
 
 * {

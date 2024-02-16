@@ -1,25 +1,8 @@
 .section2 {
   position: relative;
   isolation: isolate;
-  color: white;
 }
 
-.section2::after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  inset: 0;
-  background-image: url("/images/black.svg");
-}
-@media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
-  .section2::after {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    inset: 0;
-    background-image: url("/images/black.svg");
-  }
-}
 .agenda {
   position: relative;
   padding: 3vw;
@@ -189,7 +172,6 @@
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     padding: 0;
     margin-top: 3vh;
-    margin-right: 0;
   }
 }
 .about-vision-title {
