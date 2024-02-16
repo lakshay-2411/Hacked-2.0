@@ -7,6 +7,8 @@
   padding-top: 10vh;
   padding-left: 3vw;
   padding: 3vw;
+  background-color: white;
+  filter: invert(1) hue-rotate(180deg);
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     padding: 0;
     padding-top: 1vh;
@@ -48,7 +50,7 @@
   justify-content: space-between;
   flex-direction: row-reverse;
   padding-top: 5vh;
-  margin-right: -3vw;
+  /* margin-right: -3vw; */
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     padding: 0;
     margin-top: 3vh;
@@ -91,7 +93,7 @@
   z-index: 99;
   border-right: 5px solid;
   border-bottom: 5px solid;
-  margin-left: -3vw;
+  /* margin-left: -3vw; */
   border-image: linear-gradient(
     to right top,
     #bf00ff,
@@ -138,7 +140,7 @@
   align-items: center;
   justify-content: space-between;
   padding-top: 5vh;
-  margin-right: -3vw;
+  /* margin-right: -3vw; */
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     padding: 0;
     margin-top: 3vh;
@@ -228,7 +230,7 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: row-reverse;
-  margin-left: -3vw;
+  /* margin-left: -3vw; */
   position: relative;
   isolation: isolate;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
@@ -327,7 +329,7 @@
   gap: 1vh;
   justify-content: space-between;
   margin-top: 15vh;
-  margin-right: -3vw;
+  /* margin-right: -3vw; */
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     margin-top: 3vh;
     margin-left: 0;

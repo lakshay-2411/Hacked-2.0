@@ -10,43 +10,43 @@ import { ReactComponent as Grid } from "../../assets/navgrid.svg";
 import ReactGA from "react-ga";
 
 const Navbar = () => {
-  const handleInsta = () => {
-    ReactGA.event({
-      category: "Social Icon",
-      action: "click",
-      label: "Instagram",
-    });
-    window.open("https://www.instagram.com/");
-    window.open("https://www.instagram.com/");
-  };
-  const handleFb = () => {
-    ReactGA.event({
-      category: "Social Icon",
-      action: "click",
-      label: "Facebook",
-    });
-    window.open("https://www.facebook.com/");
-    window.open("https://www.facebook.com/");
-  };
-  const handleYt = () => {
-    ReactGA.event({
-      category: "Social Icon",
-      action: "click",
-      label: "Youtube",
-    });
-    window.open("https://www.youtube.com/");
-    window.open("https://www.youtube.com/");
-  };
+  // const handleInsta = () => {
+  //   ReactGA.event({
+  //     category: "Social Icon",
+  //     action: "click",
+  //     label: "Instagram",
+  //   });
+  //   window.open("https://www.instagram.com/");
+  //   window.open("https://www.instagram.com/");
+  // };
+  // const handleFb = () => {
+  //   ReactGA.event({
+  //     category: "Social Icon",
+  //     action: "click",
+  //     label: "Facebook",
+  //   });
+  //   window.open("https://www.facebook.com/");
+  //   window.open("https://www.facebook.com/");
+  // };
+  // const handleYt = () => {
+  //   ReactGA.event({
+  //     category: "Social Icon",
+  //     action: "click",
+  //     label: "Youtube",
+  //   });
+  //   window.open("https://www.youtube.com/");
+  //   window.open("https://www.youtube.com/");
+  // };
 
-  const handleDiscord = () => {
-    ReactGA.event({
-      category: "Social Icon",
-      action: "click",
-      label: "Youtube",
-    });
+  // const handleDiscord = () => {
+  //   ReactGA.event({
+  //     category: "Social Icon",
+  //     action: "click",
+  //     label: "Youtube",
+  //   });
 
-    window.open("https://discord.gg/");
-  };
+  //   window.open("https://discord.gg/");
+  // };
   const handleRegisterClick = () => {
     ReactGA.event({
       category: "Button",
@@ -89,7 +89,7 @@ const Navbar = () => {
           <div className="title" onClick={() => window.open("/", "_self")}>
             <img src="/images/3.png" className="logo" alt="Logo" />
             Hacked 2.0
-            <div className="socials">
+            {/* <div className="socials">
               <div className="insta">
                 <SocialIcon
                   onClick={handleInsta}
@@ -131,7 +131,7 @@ const Navbar = () => {
                   }}
                 />
               </div>
-            </div>
+            </div> */}
           </div>
 
           <ul>
@@ -165,12 +165,12 @@ const Navbar = () => {
               className="title-mobile"
               onClick={() => window.open("/", "_self")}
             >
-              <img src="/images/diamond.webp" width="30vw" alt="logo" />
+              <img src="/images/1.jpg" width="30vw" alt="logo" />
               Hackathon
             </div>
             <div className="last-mobile">
               <h2 className="register-mobile">
-                <a href="https://forms.gle/mqHSf1kpoTUiMURH6" target="_blank">
+                <a href="https://forms.google.com" target="_blank">
                   Register
                 </a>
               </h2>
