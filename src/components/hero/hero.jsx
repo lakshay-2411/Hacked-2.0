@@ -105,7 +105,7 @@ const hero = () => {
         <div>
       {loading && (
         <div id="loading-overlay">
-          <img src="/images/" alt="Loading..." />
+          <img src="/images/loading.gif" alt="Loading..." />
         </div>
       )}
       {/* Your other content goes here */}
