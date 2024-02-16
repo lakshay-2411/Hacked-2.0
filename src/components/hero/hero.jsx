@@ -244,9 +244,9 @@ const hero = () => {
                   <div className="flex justify-center items-center gap-1"></div>
                 </h3>
                 <div className="flex items-start justify-between flex-col">
-                  <p className="text14">ACM </p>
-                  <p className="text15">SATA</p>
-                  <p className="text15">SciMat</p>
+                  <a href="https://www.instagram.com/acm_bmu/" target="_blank" className="text14" style={{ textDecoration: 'none' }} onMouseEnter={(e) => e.target.style.color = 'blue'} onMouseLeave={(e) => e.target.style.color = 'white'}>ACM </a>
+                  <a href="https://www.instagram.com/sata_bmu/" target="_blank" className="text15" style={{ textDecoration: 'none' }} onMouseEnter={(e) => e.target.style.color = 'blue'} onMouseLeave={(e) => e.target.style.color = 'white'}>SATA</a>
+                  <a href="https://www.instagram.com/scimat_bmu/" target="_blank" className="text15" style={{ textDecoration: 'none' }} onMouseEnter={(e) => e.target.style.color = 'blue'} onMouseLeave={(e) => e.target.style.color = 'white'}>SciMat</a>
                   <div className="round2"></div>
                 </div>
               </div>
