@@ -1,0 +1,13 @@
+{
+    "rewrites":  [
+      {"source": "/", "destination": "/"},
+      {"source": "/events", "destination": "/"},
+      {"source": "/guidelines", "destination": "/"},
+      {"source": "/set2", "destination": "/"},
+      {"source": "/set1", "destination": "/"},
+      {"source": "/about", "destination": "/"},
+      {"source": "judges", "destination": "/"},
+      {"source": "/qr/verify/:id", "destination": "/"},
+      {"source": "/login", "destination": "/"}
+    ]
+  }
