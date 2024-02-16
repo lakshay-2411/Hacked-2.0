@@ -104,9 +104,9 @@
   justify-content: space-between;
   background-color: black;
   padding: 0.3vw;
-  border-radius: 1vw;
+  /* border-radius: 1vw; */
   position: fixed;
-  width: 100%;
+  width: 98.78%;
   top: 0;
   left: 0;
   padding-right: 28px;
@@ -116,7 +116,7 @@
   list-style-type: none;
   display: flex;
   gap: 2vw;
-  border-radius: 1vw;
+  /* border-radius: 1vw; */
   backdrop-filter: blur(5px);
 }
 .components ul li {
@@ -265,7 +265,7 @@
   font-family: poppins;
   font-size: 4vw;
   padding: 0vh 1vw;
-  border: 2px solid slategray;
-  border-radius: 1vw;
+  /* border: 2px solid slategray; */
+  /* border-radius: 1vw; */
   cursor: pointer;
 }
