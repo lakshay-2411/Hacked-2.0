@@ -105,6 +105,11 @@
   background-color: black;
   padding: 0.3vw;
   border-radius: 1vw;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding-right: 28px;
 }
 .components ul {
   position: relative;
