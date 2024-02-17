@@ -27,20 +27,21 @@ export default function Footer() {
     <footer>
 <div class="footer">
 <div class="row" id="icons">
-<a href="#"><i className="fa fa-facebook"></i></a>
-<a href="#"><i className="fa fa-instagram"></i></a>
-<a href="#"><i className="fa fa-youtube"></i></a>
-<a href="#"><i className="fa fa-twitter"></i></a>
+<a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
+<a href="#"><i className="fa-brands fa-instagram"></i></a>
+<a href="#"><i class="fa-brands fa-discord"></i></a>
+<a href="#"><i className="fa-brands fa-x-twitter"></i></a>
 </div>
 
-<div class="club">
+{/* <div class="club">
 <img src="./images/1.jpg" width={"45px"} height={"45px"}/>
 <img src="./images/1.jpg" width={"45px"} height={"45px"}/>
 <img src="./images/1.jpg" width={"45px"} height={"45px"}/>
-</div>
+</div> */}
 
 <div class="row" id="copyright">
-Copyrights © 2023. All rights reserved by Hacked 2.0 
+<div style={{marginLeft:'10px', marginTop:'18px'}}>Copyrights © 2024. All rights reserved by Hacked 2.0 </div>
+<div><img src="./images/67.png" id="milestone"/></div>
 </div>
 </div>
 </footer>
