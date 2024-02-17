@@ -36,12 +36,10 @@ const contact = () => {
             <div className="contact-container">
               <div className="contact-card">
                 <div className="contact-card-front">
-                  <img src="/images/1.jpg" alt="bmu president" />
+                  <img src="/images/bml-logo.png" alt="bmu president" />
                   <div className="contact-card-details">
                     <h1 className="contact-card-name">BMU </h1>
-                    <h2 className="contact-card-description">
-                      President 
-                    </h2>
+                    <h2 className="contact-card-description">President</h2>
                     <h3
                       className="contact-card-options"
                       onClick={() => handlecontactOptions(".contact-card")}
@@ -66,7 +64,7 @@ const contact = () => {
                           handleLaunch("contact-card-launch1");
                           setTimeout(() => {
                             window.open(
-                              "https://api.whatsapp.com/send?phone=9420280403"
+                              "https://api.whatsapp.com/send?phone=9420280403",
                             );
                           }, 2000);
                         }}
@@ -194,14 +192,12 @@ const contact = () => {
               <div className="contact-card1">
                 <div className="contact-card-front">
                   <img
-                    src="/images/1.jpg"
+                    src="/images/bml-logo.png"
                     alt="Kishore President - Whitehatians"
                   />
                   <div className="contact-card-details">
                     <h1 className="contact-card-name">BMU</h1>
-                    <h2 className="contact-card-description">
-                      President BMU
-                    </h2>
+                    <h2 className="contact-card-description">President BMU</h2>
                     <h3
                       className="contact-card-options"
                       onClick={() => handlecontactOptions(".contact-card1")}
@@ -226,7 +222,7 @@ const contact = () => {
                           handleLaunch("contact-card-launch11");
                           setTimeout(() => {
                             window.open(
-                              "https://api.whatsapp.com/send?phone=0954374985"
+                              "https://api.whatsapp.com/send?phone=0954374985",
                             );
                           }, 2000);
                         }}
@@ -281,9 +277,7 @@ const contact = () => {
                         onClick={() => {
                           handleLaunch("contact-card-launch13");
                           setTimeout(() => {
-                            window.open(
-                              "https://www.instagram.com/bmu"
-                            );
+                            window.open("https://www.instagram.com/bmu");
                           }, 2000);
                         }}
                       >

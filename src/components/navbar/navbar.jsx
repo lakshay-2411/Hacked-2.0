@@ -87,7 +87,7 @@ const Navbar = () => {
       <div className="parent">
         <div className="components">
           <div className="title" onClick={() => window.open("/", "_self")}>
-            <img src="/images/logo.jpeg" className="logo" alt="Logo" />
+            <img src="/images/logo.png" className="logo" alt="Logo" />
             <span>Hacked 2.0</span>
           </div>
 
@@ -112,7 +112,7 @@ const Navbar = () => {
               className="title-mobile"
               onClick={() => window.open("/", "_self")}
             >
-              <img src="/images/1.jpg" width="30vw" alt="logo" />
+              <img src="/images/bml-logo.png" width="30vw" alt="logo" />
               Hackathon
             </div>
             <div className="last-mobile">

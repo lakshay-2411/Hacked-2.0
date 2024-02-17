@@ -81,7 +81,7 @@ const hero = () => {
         max: 10,
         speed: 400,
       },
-      []
+      [],
     );
     const interval = setInterval(() => handleCountdown(), 1000);
     return () => {
@@ -103,16 +103,16 @@ const hero = () => {
       <div className="parent_hero">
         {/* <div className="progress_bar"></div> */}
         <div>
-      {loading && (
-        <div id="loading-overlay">
-          <img src="/images/loading.gif" alt="Loading..." />
+          {loading && (
+            <div id="loading-overlay">
+              <img src="/images/loading.gif" alt="Loading..." />
+            </div>
+          )}
+          {/* Your other content goes here */}
         </div>
-      )}
-      {/* Your other content goes here */}
-    </div>
         <div className="tag-hero-mobile">
           <img
-            src="/images/1.jpg"
+            src="/images/bml-logo.png"
             alt="srm logo"
             className="hero-srm-logo"
           />
@@ -120,7 +120,7 @@ const hero = () => {
             Celebrating 67<sup>th</sup> Milestones Day of BMU
           </p>
           <img
-            src="/images/1.jpg"
+            src="/images/bml-logo.png"
             alt="srm logo"
             className="hero-srm-logo"
           />
@@ -198,15 +198,16 @@ const hero = () => {
                 >
                   Guidelines <ArrowRightWhite className="arrow-right-icon" />
                 </p>
-                <p className="text3" onClick={() => handleCardClicks("/events")}>
+                <p
+                  className="text3"
+                  onClick={() => handleCardClicks("/events")}
+                >
                   Events <ArrowRightWhite className="arrow-right-icon" />
                 </p>
               </div>
               {/* -------------------------- Column 3 * ---------------------------------- */}
               <div className="col3 animated-div">
-                <div className="flex justify-items-start">
-                  <h3 className="text7">Problem Statements</h3>
-                </div>
+                <h3 className="text7">Problem Statements</h3>
                 <p className="text8" onClick={() => handleCardClicks("/set1")}>
                   Collection 1 <ArrowRightBlack className="arrow-right-icon" />
                 </p>
@@ -244,7 +245,8 @@ const hero = () => {
                 </div>
               </div>
               {/* -------------------------- Column 4  ---------------------------------- */}
-              <div className="col4 animated-div"
+              <div
+                className="col4 animated-div"
                 onClick={() =>
                   window.open("https://maps.app.goo.gl/ZqeowLFUaULmdeRR7")
                 }
@@ -264,15 +266,14 @@ const hero = () => {
                 </div>
               </div>
             </div>
-            
           </div>
         </section>
         {/* -------------------------- Page 2 -------------------------- */}
       </div>
       <Agenda />
-      <div className="bg-sep"></div>
+      {/* <div className="bg-sep"></div> */}
       <Schedule />
-      <div className="bg-sep"></div>
+      {/* <div className="bg-sep"></div> */}
       <Sponsors />
       <Footer />
     </React.Fragment>
