@@ -9,7 +9,6 @@ body{
   font-family: 'Play', sans-serif;
   text-align:center;
   color: #fff;
-  height: 14em;
   }
 
   .row .fa{
@@ -29,11 +28,20 @@ body{
   margin:1% 0%;
   padding:0.6% 0%;
   /* color:gray; */
-  font-size:10px;
+  font-size:11px;
   /* height: 60px; */
   }
   #copyright{
-    margin-top: 26px;
+    margin-top: 70px;
+    display:flex;
+    justify-content: space-between; 
+  }
+  #milestone{
+    height: 40px;
+    width: 160px;
+    margin-right: 10px;
+    bottom: 10px;
+    right: 10px;
   }
   
   .footer .row a{
@@ -43,7 +51,7 @@ body{
   }
 
   #icons{
-    margin-top: 30px;
+    margin-top: 6px;
   }
   
   .footer .row a:hover{
