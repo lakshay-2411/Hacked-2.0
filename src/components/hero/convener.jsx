@@ -13,13 +13,14 @@ const convener = () => {
           <div className="convener-card">
             <img
               className="convener-card-image"
-              src="/images/1.jpg"
+              src="/images/bml-logo.png"
               alt="convenerimg"
             />
             <h1 className="convener-name"> Lorem Ipsum</h1>
 
             <h1 className="convener-position">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, maiores.{" "}
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. In,
+              maiores.{" "}
             </h1>
           </div>
         </div>

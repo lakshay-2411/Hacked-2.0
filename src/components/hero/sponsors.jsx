@@ -16,7 +16,7 @@ const sponsors = () => {
         <div className="sponsors-container">
           <div className="sponsors-border">
             <div>
-              <img src="/images/1.jpg" alt="Hebesec Technologies" />
+              <img src="/images/bml-logo.png" alt="Hebesec Technologies" />
             </div>
             <div className="sponsors-container-sub">
               <h1 className="sponsor-title">

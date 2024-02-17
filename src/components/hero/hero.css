@@ -22,7 +22,6 @@
   margin-top: 59px;
   position: relative;
   isolation: isolate;
-  background-color: black;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     padding: 0 2vw;
   }
@@ -174,17 +173,18 @@
   font-style: normal;
   font-family: "Rubik Mono One";
 }
-.parent_hero .title1 .hackathon::after {
-  content: "";
-  z-index: -1;
-  position: absolute;
-  height: 0.5em;
-  width: 0;
-  left: 0;
-  bottom: 1vh;
-  background: black;
-  animation: line 1s ease-in-out forwards;
-}
+
+/* .parent_hero .title1 .hackathon::after { */
+/*   content: ""; */
+/*   z-index: -1; */
+/*   position: absolute; */
+/*   height: 0.5em; */
+/*   width: 0; */
+/*   left: 0.25rem; */
+/*   bottom: 1vh; */
+/*   background: slateblue; */
+/*   animation: line 1s ease-in-out forwards; */
+/* } */
 @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
   .parent_hero .title1 .hackathon::after {
     height: 0.5em;
@@ -220,7 +220,6 @@
   margin-top: 5vh;
   position: relative;
   padding: 0.25em 0.5em;
-  background-color: black;
   border: 2px solid white;
   border-radius: 2em;
   cursor: pointer;
@@ -275,8 +274,9 @@
   position: relative;
   display: flex;
   gap: 1.5vw;
+  margin-top: 1rem;
   align-items: center;
-  background-image: url("/images/purple4.webp");
+  /* background-image: url("/images/purple4.webp"); */
   width: fit-content;
   background-repeat: no-repeat;
   background-position: center;
@@ -295,10 +295,12 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: rgb(0, 0, 0, 0.3);
+  filter: blur(30px);
+  background: slateblue;
   z-index: -1;
-  border-radius: 1vw;
+  border-radius: 2em;
 }
+
 .countdown .day-card,
 .hour-card,
 .min-card,
@@ -567,7 +569,6 @@
   inset: 0;
   z-index: -1;
   backdrop-filter: blur(1.5px);
-  background: black;
   opacity: 0.6;
 }
 .info-icon {
@@ -626,7 +627,6 @@
 .right_side .col3 {
   /* margin-top: 1vh; */
   position: relative;
-  height: 250px;
   padding: 1vw;
   background-repeat: no-repeat;
   border-radius: 1vw;
@@ -636,7 +636,6 @@
   isolation: isolate;
   overflow: hidden;
   color: white;
-  border: 0.2vw solid black;
   transition: all 0.1s linear;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     margin-top: 2vh;

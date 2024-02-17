@@ -13,24 +13,20 @@ const coordinators = () => {
           <div className="convener-card">
             <img
               className="convener-card-image"
-              src="/images/1.jpg"
+              src="/images/bml-logo.png"
               alt="coordinatorimg1"
             />
             <h1 className="convener-name">Lorem Ipsum</h1>
-            <h1 className="convener-position">
-              Lorem ipsum dolor sit amet 
-            </h1>
+            <h1 className="convener-position">Lorem ipsum dolor sit amet</h1>
           </div>
           <div className="convener-card">
             <img
               className="convener-card-image"
-              src="/images/1.jpg"
+              src="/images/bml-logo.png"
               alt="coordinatorimg2"
             />
             <h1 className="convener-name"> Lorem Ipsum</h1>
-            <h1 className="convener-position">
-              Lorem ipsum dolor sit amet 
-            </h1>
+            <h1 className="convener-position">Lorem ipsum dolor sit amet</h1>
           </div>
         </div>
       </div>
