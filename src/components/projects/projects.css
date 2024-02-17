@@ -13,6 +13,7 @@
   font-family: audiowide;
   letter-spacing: 3px;
   font-weight: bold;
+  margin-top: 17px;
   text-transform: uppercase;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     font-size: 5.5vw;
