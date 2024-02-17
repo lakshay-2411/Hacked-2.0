@@ -169,7 +169,9 @@
 .parent_hero .title1 .hackathon {
   position: relative;
   color: white;
-  font-family: liger;
+  font-weight: 600;
+  font-style: normal;
+  font-family: "Anta",sans-serif;
 }
 .parent_hero .title1 .hackathon::after {
   content: "";
