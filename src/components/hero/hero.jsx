@@ -186,9 +186,9 @@ const hero = () => {
                 <h3 className="text">
                   <div>
                     <div>
-                      <div> 8</div> <div> th</div>{" "}
+                      <div> 1</div> <div> st</div>{" "}
                     </div>{" "}
-                    September
+                    March
                   </div>
                   <Calender className="calender-icon" />
                 </h3>
