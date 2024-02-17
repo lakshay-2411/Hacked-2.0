@@ -112,6 +112,7 @@
   }
 }
 .parent_hero .title1 {
+  text-align: center;
   position: relative;
   font-size: 4.7vw;
   text-transform: uppercase;
@@ -169,9 +170,9 @@
 .parent_hero .title1 .hackathon {
   position: relative;
   color: white;
-  font-weight: 600;
+  font-weight: 400;
   font-style: normal;
-  font-family: "Anta",sans-serif;
+  font-family: "Rubik Mono One";
 }
 .parent_hero .title1 .hackathon::after {
   content: "";
@@ -197,6 +198,7 @@
 
 .parent_hero .title1 .description {
   margin-top: 8vh;
+  text-align: left;
   font-size: 1.2vw;
   font-weight: 500;
   font-family: "arial";
@@ -358,37 +360,37 @@
   flex-direction: column;
   gap: 80px;
   width: 70%;
-  @media screen and (min-width: 768px) and (max-width:1400px){
+  @media screen and (min-width: 768px) and (max-width: 1400px) {
     display: flex;
     flex-direction: column;
     padding-right: 5%;
     gap: 40px;
   }
-  @media screen and (min-width: 320px) and (max-width:767px){
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     gap: 40px;
   }
 }
-.right_side_top{
+.right_side_top {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   max-width: 1400px;
   gap: 25px;
   height: 100%;
-  @media screen and (min-width: 320px) and (max-width:767px){
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     display: flex;
     flex-direction: column;
     padding-right: 5%;
   }
 }
-.right_side_bottom{
+.right_side_bottom {
   display: flex;
   flex-direction: row;
   gap: 15px;
   justify-content: space-between;
-  max-width: 1400px; 
+  max-width: 1400px;
   height: 100%;
-  @media screen and (min-width: 320px) and (max-width:767px){
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     display: flex;
     flex-direction: column;
     padding-right: 5%;
@@ -413,65 +415,66 @@
     box-shadow: 0vw 0vh 0vw 0vw black;
   }
 }
-.right_side .col1{
+.right_side .col1 {
   width: 50%;
   background: rgba(70, 70, 85, 0.43);
-  box-shadow: 0 4px 30px rgba(0,0,0,.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
-  padding: 20px;
-  @media screen and (min-width: 320px) and (max-width:767px){
+  padding: 1vw;
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     width: 100%;
   }
 }
-.right_side .col1:hover{
-  transform: translate3D(0,-1px,0) scale(1.03);
-  transition: all .4s ease; 
+.right_side .col1:hover {
+  transform: translate3D(0, -1px, 0) scale(1.03);
+  transition: all 0.4s ease;
   cursor: pointer;
 }
-.right_side .col2:hover{
-  transform: translate3D(0,-1px,0) scale(1.03);
-  transition: all .4s ease; 
+.right_side .col2:hover {
+  transform: translate3D(0, -1px, 0) scale(1.03);
+  transition: all 0.4s ease;
   cursor: pointer;
 }
-.right_side .col3:hover{
-  transform: translate3D(0,-1px,0) scale(1.03);
-  transition: all .4s ease; 
+.right_side .col3:hover {
+  transform: translate3D(0, -1px, 0) scale(1.03);
+  transition: all 0.4s ease;
   cursor: pointer;
 }
-.right_side .col4:hover{
-  transform: translate3D(0,-1px,0) scale(1.03);
-  transition: all .4s ease; 
+.right_side .col4:hover {
+  transform: translate3D(0, -1px, 0) scale(1.03);
+  transition: all 0.4s ease;
   cursor: pointer;
 }
-.right_side .col6:hover{
-  transform: translate3D(0,-1px,0) scale(1.03);
-  transition: all .4s ease; 
+.right_side .col6:hover {
+  transform: translate3D(0, -1px, 0) scale(1.03);
+  transition: all 0.4s ease;
   cursor: pointer;
 }
-.right_side .col3{
+.right_side .col3 {
+  padding: 1vw;
   width: 50%;
-  @media screen and (min-width: 320px) and (max-width:767px){
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     width: 100%;
     padding-right: 10%;
   }
 }
-.right_side .col2{
+.right_side .col2 {
   width: 50%;
-  @media screen and (min-width: 320px) and (max-width:767px){
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     width: 100%;
     padding-right: 5%;
   }
 }
-.right_side .col4{
+.right_side .col4 {
   width: 50%;
-  @media screen and (min-width: 320px) and (max-width:767px){
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     width: 100%;
     padding-right: 10%;
   }
 }
-.right_side .col6{
+.right_side .col6 {
   width: 50%;
-  @media screen and (min-width: 320px) and (max-width:767px){
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     width: 100%;
     padding-right: 5%;
   }
@@ -548,7 +551,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background: rgba(70, 70, 85, 0.43);
-  box-shadow: 0 4px 30px rgba(0,0,0,.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   padding: 20px;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
@@ -628,7 +631,7 @@
   background-repeat: no-repeat;
   border-radius: 1vw;
   background: rgba(70, 70, 85, 0.43);
-  box-shadow: 0 4px 30px rgba(0,0,0,.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   isolation: isolate;
   overflow: hidden;
@@ -712,7 +715,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background: rgba(70, 70, 85, 0.43);
-  box-shadow: 0 4px 30px rgba(0,0,0,.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   cursor: pointer;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
@@ -785,7 +788,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background: rgba(70, 70, 85, 0.43);
-  box-shadow: 0 4px 30px rgba(0,0,0,.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     margin-top: 0.5vh;
