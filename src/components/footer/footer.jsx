@@ -4,7 +4,11 @@ export default function Footer() {
   return (
     <footer>
       <div className="footer">
-        <div>Copyrights © 2024. All rights reserved by Hacked 2.0 </div>
+        <div>
+          Copyrights © 2024.
+          <br />
+          All rights reserved by Hacked 2.0{" "}
+        </div>
         <div className="row" id="icons">
           <a rel="noreferrer" target="_blank" href="#">
             <i className="fa-brands fa-linkedin-in"></i>
@@ -23,7 +27,7 @@ export default function Footer() {
             <i className="fa-brands fa-x-twitter"></i>
           </a>
         </div>
-        <img src="/images/67.png" id="milestone" />
+        <img src="/images/67-milestone.png" id="milestone" />
       </div>
     </footer>
   );

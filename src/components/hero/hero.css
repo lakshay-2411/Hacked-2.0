@@ -22,6 +22,7 @@
   margin-top: 59px;
   position: relative;
   isolation: isolate;
+  /* background-image: url(/images/Hacked-bg-plain); */
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     padding: 0 2vw;
   }
@@ -296,7 +297,7 @@
   position: absolute;
   inset: 0;
   filter: blur(30px);
-  background: slateblue;
+  background: purple;
   z-index: -1;
   border-radius: 2em;
 }
