@@ -112,8 +112,7 @@ body {
 
   color: white;
   /* background: var(--background); */
-
-  background-image: url("/images/Hacked-bg-plain.png");
+  background-image: url("/images/Hacked-bg.png");
 }
 
 * {
