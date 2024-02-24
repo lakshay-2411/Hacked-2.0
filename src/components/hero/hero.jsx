@@ -241,8 +241,6 @@ const hero = () => {
                     BMU Munjal University
                   </p>
                   {/* <p className="text-white  text-[0.8vw] ">
-                    National Highway 45, Potheri, SRM Nagar, Kattankulathur, Tamil
-                    Nadu - 603203
                   </p> */}
                   <div className="round"></div>
                 </div>

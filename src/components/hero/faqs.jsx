@@ -85,7 +85,7 @@ const faqs = () => {
               />
             </h1>
             <p className="faqs-content-description">
-              Hack-A-Tank is open to all undergraduate students from all
+              Hacked 2.0 is open to all undergraduate students from all
               colleges across India.
             </p>
           </div>
