@@ -101,7 +101,8 @@
 }
 
 :root {
-  --background: #141414;
+  --background: hsl(296, 100%, 11%);
+  --footer-background: hsl(296 100% 11% / 0.5);
   --accent: rgba(238, 12, 200, 0.747);
 }
 

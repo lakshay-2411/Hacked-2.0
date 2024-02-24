@@ -1,0 +1,10 @@
+.app {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+  padding-top: 8rem;
+}
+
+.fadein {
+  opacity: 1;
+}
+

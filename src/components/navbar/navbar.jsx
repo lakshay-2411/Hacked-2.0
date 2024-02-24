@@ -1,52 +1,9 @@
 import React from "react";
 import "./navbar.css";
-import {
-  InstagramOutlined,
-  InstagramFilled,
-  FacebookFilled,
-} from "@ant-design/icons";
-import { SocialIcon } from "react-social-icons";
 import { ReactComponent as Grid } from "../../assets/navgrid.svg";
 import ReactGA from "react-ga";
 
 const Navbar = () => {
-  // const handleInsta = () => {
-  //   ReactGA.event({
-  //     category: "Social Icon",
-  //     action: "click",
-  //     label: "Instagram",
-  //   });
-  //   window.open("https://www.instagram.com/");
-  //   window.open("https://www.instagram.com/");
-  // };
-  // const handleFb = () => {
-  //   ReactGA.event({
-  //     category: "Social Icon",
-  //     action: "click",
-  //     label: "Facebook",
-  //   });
-  //   window.open("https://www.facebook.com/");
-  //   window.open("https://www.facebook.com/");
-  // };
-  // const handleYt = () => {
-  //   ReactGA.event({
-  //     category: "Social Icon",
-  //     action: "click",
-  //     label: "Youtube",
-  //   });
-  //   window.open("https://www.youtube.com/");
-  //   window.open("https://www.youtube.com/");
-  // };
-
-  // const handleDiscord = () => {
-  //   ReactGA.event({
-  //     category: "Social Icon",
-  //     action: "click",
-  //     label: "Youtube",
-  //   });
-
-  //   window.open("https://discord.gg/");
-  // };
   const handleRegisterClick = () => {
     ReactGA.event({
       category: "Button",
@@ -91,14 +48,14 @@ const Navbar = () => {
             <span>Hacked 2.0</span>
           </div>
 
-          <ul>
-            <li onClick={() => window.open("/", "_self")}>Home</li>
-            <li onClick={() => handleScroll("#agenda")}>Agenda</li>
-            <li onClick={() => handleScroll("#schedule")}>Schedule</li>
-            <li onClick={() => handleScroll("#faqs")}>FAQs</li>
-            <li onClick={() => handleScroll("#contact")}>Contact</li>
-          </ul>
           <div className="last">
+            <ul>
+              <li onClick={() => window.open("/", "_self")}>Home</li>
+              <li onClick={() => handleScroll("#agenda")}>Agenda</li>
+              <li onClick={() => handleScroll("#schedule")}>Schedule</li>
+              <li onClick={() => handleScroll("#faqs")}>FAQs</li>
+              <li onClick={() => handleScroll("#contact")}>Contact</li>
+            </ul>
             <h2 className="register">
               <p onClick={handleRegisterClick}> Register</p>
             </h2>
