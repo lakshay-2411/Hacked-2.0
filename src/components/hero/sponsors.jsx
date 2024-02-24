@@ -51,8 +51,8 @@ const sponsors = () => {
         </div>
         <Faqs />
         {<Contact /> }
-        {<Convener />}
-        {<Coordinators />} */}
+        {/*<Convener />*/}
+        {/*<Coordinators />*/}
       </div>
     </React.Fragment>
   );
