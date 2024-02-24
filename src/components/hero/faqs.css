@@ -9,6 +9,14 @@
     margin: 5vh 1vw;
   }
 }
+.registration-link {
+  font-size: large;
+  font-weight: bold;
+}
+.registration-link:hover {
+  color: red; /* Change this to the desired color */
+}
+
 .faqs-title {
   font-size: 45px;
   font-family: "russo one";
