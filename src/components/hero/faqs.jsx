@@ -170,47 +170,8 @@ const faqs = () => {
               />
             </h1>
             <p className="faqs-content-description">
-            Participants should bring in their Laptops, Chargers, Extension, Pillows, 
-            Sleeping Bags and any other necessary software or tools, and enthusiasm for innovation!
-            </p>
-          </div>
-          <div className="faqs-content" onClick={handleArrow}>
-            <h1 className="faqs-content-title">
-            What should I bring to Hacked 2.0?
-              <ChevronRightIcon
-                style={styles.container}
-                className="faqs-arrow"
-              />
-            </h1>
-            <p className="faqs-content-description">
-            Participants should bring in their Laptops, Chargers, Extension, Pillows, 
-            Sleeping Bags and any other necessary software or tools, and enthusiasm for innovation!
-            </p>
-          </div>
-          <div className="faqs-content" onClick={handleArrow}>
-            <h1 className="faqs-content-title">
-            What should I bring to Hacked 2.0?
-              <ChevronRightIcon
-                style={styles.container}
-                className="faqs-arrow"
-              />
-            </h1>
-            <p className="faqs-content-description">
-            Participants should bring in their Laptops, Chargers, Extension, Pillows, 
-            Sleeping Bags and any other necessary software or tools, and enthusiasm for innovation!
-            </p>
-          </div>
-          <div className="faqs-content" onClick={handleArrow}>
-            <h1 className="faqs-content-title">
-            What should I bring to Hacked 2.0?
-              <ChevronRightIcon
-                style={styles.container}
-                className="faqs-arrow"
-              />
-            </h1>
-            <p className="faqs-content-description">
-            Participants should bring in their Laptops, Chargers, Extension, Pillows, 
-            Sleeping Bags and any other necessary software or tools, and enthusiasm for innovation!
+            Participants should bring in their Laptops, Chargers and any other 
+            necessary software or tools, and enthusiasm for innovation!
             </p>
           </div>
         </div>

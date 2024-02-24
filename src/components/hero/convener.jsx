@@ -50,12 +50,7 @@ const convener = () => {
                 src="/images/bml-logo.png"
                 alt="convenerimg"
               />
-              <h1 className="convener-name fourth">
-                <ul>
-                    <li>All participate will get Hacked 2.0 certificates</li>
-                    <li>To all participants will have Wolfram | One for 30 days</li>
-                </ul>
-              </h1>
+              <h1 className="convener-name fourth"> All participate will get Hacked 2.0 certificates</h1>
             </div>
           </div>
         </div>

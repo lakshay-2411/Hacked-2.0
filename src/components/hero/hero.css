@@ -10,6 +10,13 @@
   align-items: center;
   z-index: 9999; /* Ensure it appears on top of everything */
 }
+.text14:hover {
+  color: var(--accent);
+}
+
+.text15:hover {
+  color: var(--accent);
+}
 
 .parent_hero {
   padding-right: 1rem;
