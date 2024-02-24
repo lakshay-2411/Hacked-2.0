@@ -13,6 +13,8 @@ import { ReactComponent as Location } from "../../assets/location.svg";
 import { ReactComponent as ArrowRightWhite } from "../../assets/arrow-right-white.svg";
 import { ReactComponent as ArrowRightBlack } from "../../assets/arrow-right-black.svg";
 
+import { Typewriter } from "react-simple-typewriter";
+
 const hero = () => {
   const handleRegisterClick = () => {
     ReactGA.event({
@@ -88,42 +90,14 @@ const hero = () => {
       clearInterval(interval);
     };
   }, []);
-  const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    // Simulating a delay to demonstrate loading
-    const timeout = setTimeout(() => {
-      setLoading(false);
-    }, 3000);
-
-    return () => clearTimeout(timeout);
-  }, []);
   return (
     <React.Fragment>
       <div className="parent_hero">
-        {/* <div className="progress_bar"></div> */}
-        <div>
-          {loading && (
-            <div id="loading-overlay">
-              <img src="/images/loading.gif" alt="Loading..." />
-            </div>
-          )}
-          {/* Your other content goes here */}
-        </div>
         <div className="tag-hero-mobile">
-          <img
-            src="/images/bml-logo.png"
-            alt="srm logo"
-            className="hero-srm-logo"
-          />
           <p className="tag">
             Celebrating 67<sup>th</sup> Milestones Day of BMU
           </p>
-          <img
-            src="/images/bml-logo.png"
-            alt="srm logo"
-            className="hero-srm-logo"
-          />
         </div>
 
         {/* ----------------------- Page 1 ------------------------- */}
@@ -132,9 +106,17 @@ const hero = () => {
             <div className="curve"></div>
 
             <div className="title1">
-              <span className="hackathon"> {"Hacked 2.0"}</span>
-              {/* <p className="tag1"> A National Level 24 Hour Hackathon</p> */}
-              {/* <span className="hackathon">Hackathon</span> */}
+              <span className="hackathon">
+                <Typewriter
+                  words={["Hacked 2.0"]}
+                  loop={false}
+                  cursor
+                  cursorStyle="|"
+                  typeSpeed={70}
+                  deleteSpeed={50}
+                  delaySpeed={1000}
+                />
+              </span>
               <p className="description">
                 National <span> Level 24 hour Hackathon </span>
                 showcasing innovative solutions

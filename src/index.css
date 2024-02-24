@@ -101,7 +101,8 @@
 }
 
 :root {
-  --background: #141414;
+  --background: hsl(296, 100%, 11%);
+  --footer-background: hsl(296 100% 11% / 0.5);
   --accent: rgba(238, 12, 200, 0.747);
 }
 
@@ -111,9 +112,8 @@ body {
   scroll-behavior: smooth;
 
   color: white;
-  background: var(--background);
-
-  /* background-image: linear-gradient(343deg,#782f98,#053281 82%,#342764); */
+  /* background: var(--background); */
+  background-image: url("/images/Hacked-bg.png");
 }
 
 * {

@@ -1,29 +1,31 @@
+import { Instagram, LinkedIn } from "@mui/icons-material";
 import "./footer.css";
 
 export default function Footer() {
   return (
     <footer>
       <div className="footer">
-        <div>Copyrights © 2024. All rights reserved by Hacked 2.0 </div>
-        <div className="row" id="icons">
-          <a rel="noreferrer" target="_blank" href="#">
-            <i className="fa-brands fa-linkedin-in"></i>
-          </a>
-          <a
-            rel="noreferrer"
-            target="_blank"
-            href="https://www.instagram.com/hacked_bmu?igsh=bG40anR0Z2I2bGRq"
-          >
-            <i className="fa-brands fa-instagram"></i>
-          </a>
-          <a rel="noreferrer" target="_blank" href="#">
-            <i className="fa-brands fa-discord"></i>
-          </a>
-          <a rel="noreferrer" target="_blank" href="#">
-            <i className="fa-brands fa-x-twitter"></i>
-          </a>
+        <div className="left">
+          <img src="/images/logo.png" />
+          <div>
+            <div className="sep2"></div>
+          </div>
+          <img className="milestone-image" src="/images/67-milestone.png" />
         </div>
-        <img src="/images/67.png" id="milestone" />
+
+        <div className="right followus">
+          <div className="heading">
+            <b>Follow Us</b>
+          </div>
+          <div className="links">
+            <div className="social-icon">
+              <Instagram />
+            </div>
+            <div className="social-icon">
+              <LinkedIn />
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
   );
