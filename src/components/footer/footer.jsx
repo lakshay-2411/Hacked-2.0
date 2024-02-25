@@ -2,6 +2,13 @@ import { Instagram, LinkedIn } from "@mui/icons-material";
 import "./footer.css";
 
 export default function Footer() {
+  const handleInstagramClick = () => {
+    window.open("https://www.instagram.com/hacked_bmu/", "_blank");
+  };
+
+  const handleLinkedInClick = () => {
+    window.open("https://www.linkedin.com/company/hacked-2-0/", "_blank");
+  };
   return (
     <footer>
       <div className="footer">
@@ -18,11 +25,11 @@ export default function Footer() {
             <b>Follow Us</b>
           </div>
           <div className="links">
-            <div className="social-icon">
-              <Instagram />
+            <div className="social-icon" onClick={handleInstagramClick}>
+              <Instagram className="icon"/>
             </div>
-            <div className="social-icon">
-              <LinkedIn />
+            <div className="social-icon" onClick={handleLinkedInClick}>
+              <LinkedIn className="icon"/>
             </div>
           </div>
         </div>
