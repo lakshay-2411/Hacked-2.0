@@ -77,13 +77,12 @@ const section2 = () => {
               Vision
             </div>
             <div className="about-vision-description" id="agenda-right">
-              Empowering Innovators to Transform Tomorrow. Our hackathon
-              envisions a world where creative minds converge to tackle pressing
-              challenges, forging solutions that redefine possibilities. Through
-              dynamic collaboration, cutting-edge technology, and unwavering
-              determination, we ignite a spark that sparks real change. Join us
-              to hack a brighter future and leave an indelible mark on the
-              landscape of innovation.
+            Hacked 2.0 envisions a world where creativity knows no bounds and innovation 
+            thrives. We envision a community of passionate individuals coming together to 
+            solve real-world challenges, push the boundaries of technology, and make a 
+            positive impact on society. By providing a platform for collaboration, 
+            experimentation, and exploration, we aim to inspire and empower the next generation 
+            of innovators, changemakers, and leaders. 
             </div>
           </div>
           <div className="mission">
@@ -97,13 +96,13 @@ const section2 = () => {
               Mission
             </div>
             <div className="about-mission-description" id="agenda-left">
-              Fueling innovation, our hackathon is a nexus of minds reimagining
-              solutions for a dynamic world. Through tech-driven teamwork, we
-              catalyze change, pushing boundaries and shaping the future. Join
-              us to ideate, collaborate, and leave an indelible mark on the
-              tapestry of progress.we ignite a spark that sparks real change.
-              Join us to hack a brighter future and leave an indelible mark on
-              the landscape of innovation
+            Our mission is to create an inclusive and supportive environment where participants 
+            from diverse backgrounds can come together to ideate, prototype, and innovate. 
+            Through hands-on experience, mentorship, and access to resources, we strive to 
+            enable participants to develop their skills, expand their networks, and unlock 
+            their potential. By aligning with the Sustainable Development Goals set forth by 
+            the United Nations, we are committed to driving meaningful change and building a 
+            better future for all.
             </div>
           </div>
         </div>
