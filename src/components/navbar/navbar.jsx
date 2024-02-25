@@ -10,7 +10,7 @@ const Navbar = () => {
       action: "click",
       label: "register",
     });
-    window.open("https://forms.google.com");
+    window.open("https://unstop.com/hackathons/hacked-20-bml-munjal-university-bmu-gurgaon-901802");
   };
   const handleScroll = (id) => {
     ReactGA.event({
@@ -74,7 +74,7 @@ const Navbar = () => {
             </div>
             <div className="last-mobile">
               <h2 className="register-mobile">
-                <a href="https://forms.google.com" target="_blank">
+                <a href="https://unstop.com/hackathons/hacked-20-bml-munjal-university-bmu-gurgaon-901802" target="_blank">
                   Register
                 </a>
               </h2>

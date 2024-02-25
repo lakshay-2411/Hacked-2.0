@@ -213,7 +213,7 @@ p {
   position: relative;
   isolation: isolate;
   height: 100%;
-  background: black;
+  /* background: black; */
 }
 
 .guidelines-bg::after {
@@ -224,13 +224,13 @@ p {
   background-size: cover;
   background-position: center;
   opacity: 0.7;
-  background-image: url("/images/bg6.webp");
+  background-image: url("/images/bg.webp");
   top: -1vh;
 }
 .set2-bg {
   position: relative;
   isolation: isolate;
-  background: black;
+  /* background: black; */
 }
 
 .set2-bg::after {
@@ -240,7 +240,7 @@ p {
   inset: 0;
   background-size: 100%;
   opacity: 0.5;
-  background-image: url("/images/bg9.webp");
+  background-image: url("/images/Hacked-bg.png");
 }
 @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
   .set2-bg::after {
@@ -251,7 +251,7 @@ p {
 .set1-bg {
   position: relative;
   isolation: isolate;
-  background: black;
+  /* background: black; */
 }
 
 .set1-bg::after {
@@ -261,7 +261,7 @@ p {
   inset: 0;
   background-size: 100%;
   opacity: 0.5;
-  background-image: url("/images/bg2.webp");
+  background-image: url("/images/Hacked-bg.png");
 }
 @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
   .set1-bg::after {

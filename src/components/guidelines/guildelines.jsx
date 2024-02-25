@@ -12,55 +12,65 @@ const guildelines = () => {
         <div className="guidelines-container">
           <div className="guidelines-content">
             <div className="guidelines-1">
-              1. The teams can have a minimum of 2 members and a maximum of 3
-              members. 🤝👥
+              1. Team performance will be evaluated once by a panel of
+                  mentors and once by a panel of judges based on mentor
+                  evaluation results.
               <br /> <br />
-              2. The last date for team registration is 25th August 2023. ⏰🗓️{" "}
+              2. Each team should have 2-4 members. If you wish to submit
+                solo, you can, but you will not be eligible for winning the
+                hackathon still, you will be eligible for participation prizes.{" "}
               <br />
               <br />
-              3. The last date for abstract submission is 28th August 2023. 📝🗓️{" "}
+              {/* 3. The last date for abstract submission is 28th August 2023. 📝🗓️{" "}
+              <br />
+              <br /> */}
+              4. Teams can of course gain advice and support from
+                  organizers, volunteers, sponsors, and others.
+ <br />
+              <br />
+              5. All work on a project should be done at the hackathon{" "}
+                  {" "}
               <br />
               <br />
-              4. The project should be unique and shouldn't have ever been
-              published in any other journals or competitions. 🚀🔍 <br />
-              <br />
-              5. The event will have three phases of judge review. Projects will
-              be evaluated every 8 hours from the beginning of the finale. 👁️‍🗨️🕒{" "}
+              6. Teams can use an idea they had before the event.
               <br />
               <br />
-              6. The project's work should sustain the whole 24 hours; if it
-              fails to do so, the team will be disqualified immediately. 🏆🕒❌{" "}
+              7. Teams can work on ideas that have already been done.
+Hacks do not have to be “innovative”. <br />
               <br />
-              <br />
-              7. Code of conduct is strictly monitored, and any case of
-              uncivilized behavior will result in the whole team's
-              disqualification. 🚫👮‍♂️❌ <br />
+              8. Teams can work on ideas that have already been done.
+Hacks do not have to be “innovative”. <br />
               <br />
             </div>
             <div className="guidelines-2">
-              8. The abstract submission round is completely free for all teams
-              that have registered on or before the 25th of August 2023. 🆓📅{" "}
+              9. Teams can work on an idea that they have worked on
+before (as long as they do not reuse code).
               <br />
               <br />
-              9. The shortlisted/scrutinized teams for the finale of
-              "Hacked 2.0" will be announced by 4:00 pm on the 29th of August
-              2023. 📣🏁 10. The Finale round begins at 10:00 am on 8th
-              September 2023 and concludes at 5:00 pm on the 9th September 2023.
-              🏁🕙🏁
+              10. Teams can use libraries, frameworks, or open-source code
+in their projects. Working on a project before the event and
+open-sourcing it for the sole purpose of using the code
+during the event is against the spirit of the rules and is not
+allowed.
               <br />
-              <br /> 11. The finale round will be offline and held at our BMU
-              Munjal University, Gurugram, Haryana. 🏛️📍 <br />
+              <br /> 11. Adding new features to existing projects is allowed.
+Judges will only consider new functionality introduced
+or new features added during the hackathon in
+determining the winners. <br />
               <br />
-              12. Power outlets and worksheets will be provided to all teams
-              prior to the commencement of the event. 🔌📑 <br />
+              12. Teams must stop hacking once the time is up. However,
+teams are allowed to debug and make small fixes to
+their programs after time is up. <br />
               <br />
-              13. All technical and physical requirements for the projects
-              should be brought by the team only, and no assistance will be
-              provided in this case. ⚙️🛠️🚫
+              13. Projects that violate the Code of Conduct are not
+allowed.
+
               <br /> <br />
-              14. Teams must present their projects in a clear and organized
-              manner during the finale, ensuring effective communication of
-              their ideas. 🗣️📊
+              14. Teams can be disqualified from the competition at the
+organizers
+' discretion. Reasons might include but are
+not limited to breaking the Competition Rules, breaking
+the Code of Conduct, or other unsporting behaviour.
             </div>
           </div>
         </div>

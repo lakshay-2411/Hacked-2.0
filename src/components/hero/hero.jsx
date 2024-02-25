@@ -22,7 +22,7 @@ const hero = () => {
       action: "click",
       label: "register",
     });
-    window.open("https://forms.google.com");
+    window.open("https://unstop.com/hackathons/hacked-20-bml-munjal-university-bmu-gurgaon-901802");
   };
   const handleCardClicks = (card) => {
     ReactGA.event({

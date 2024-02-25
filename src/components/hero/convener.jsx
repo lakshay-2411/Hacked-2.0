@@ -3,6 +3,8 @@ import "./convener.css";
 import first from "../../assets/first.png"
 import second from "../../assets/second.png"
 import third from "../../assets/third.png"
+import sparkle from "../../assets/sparkle.webp"
+import { Height } from "@mui/icons-material";
 const convener = () => {
   return (
     <React.Fragment>
@@ -47,10 +49,11 @@ const convener = () => {
             <div className="convener-card">
               <img
                 className="convener-card-image"
-                src="/images/bml-logo.png"
+                src={sparkle}
                 alt="convenerimg"
+                style={{height: '15rem', width: '15rem'}}
               />
-              <h1 className="convener-name fourth"> All participate will get Hacked 2.0 certificates</h1>
+              <h1 className="convener-name fourth"> All participants will get Hacked 2.0 certificates</h1>
             </div>
           </div>
         </div>
