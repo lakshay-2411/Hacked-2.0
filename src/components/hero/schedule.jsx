@@ -35,13 +35,13 @@ const schedule = () => {
             <div className="container" id="timeline-container">
               <h2 className="date">
                 <div>
-                  Feb
+                  March
                   <div>
-                    <div> 20</div> <div>th</div>
+                    <div> 1</div> <div>st</div>
                   </div>
                 </div>
               </h2>
-              <h2 className="container-title">Registration opens</h2>
+              <h2 className="container-title">Inaugural Ceremony</h2>
               <p className="container-description">
                 Registration is open for tech enthusiasts, developers, and
                 problem solvers from all backgrounds. Join us for an

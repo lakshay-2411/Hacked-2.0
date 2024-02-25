@@ -4,7 +4,7 @@ import ReactGA from "react-ga";
 
 const set1 = () => {
   useEffect(() => {
-    document.title = "Projects - Set 1";
+    document.title = "Set 1";
   });
   const handleSoftwareView = (Element) => {
     ReactGA.event({
@@ -21,7 +21,7 @@ const set1 = () => {
   return (
     <React.Fragment>
       <div className="parent-software">
-        <h1 className="parent-software-title">Projects - Set 1</h1>
+        <h1 className="parent-software-title">Set 1</h1>
         <p className="projects-disclaimer">
           OWN/UNIQUE PROBLEM STATEMENTS ARE ALSO WELCOMED - Kindly intimate when
           speaking with registration team

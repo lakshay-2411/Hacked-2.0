@@ -191,10 +191,10 @@ const hero = () => {
               <div className="col3 animated-div">
                 <h3 className="text7">Problem Statements</h3>
                 <p className="text8" onClick={() => handleCardClicks("/set1")}>
-                  Collection 1 <ArrowRightBlack className="arrow-right-icon" />
+                  Set 1 <ArrowRightWhite className="arrow-right-icon" />
                 </p>
                 <p className="text9" onClick={() => handleCardClicks("/set2")}>
-                  Collection 2 <ArrowRightBlack className="arrow-right-icon" />
+                  Set 2 <ArrowRightWhite className="arrow-right-icon" />
                 </p>
               </div>
             </div>
