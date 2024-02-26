@@ -1,5 +1,5 @@
 import "./hero.css";
-import React, { useEffect, useState, useMemo } from "react";
+import React, { useEffect, useState } from "react";
 import ReactGA from "react-ga";
 import KeyboardDoubleArrowRightSharpIcon from "@mui/icons-material/KeyboardDoubleArrowRightSharp";
 import VanillaTilt from "vanilla-tilt";
@@ -15,14 +15,16 @@ import { ReactComponent as ArrowRightBlack } from "../../assets/arrow-right-blac
 
 import { Typewriter } from "react-simple-typewriter";
 
-const hero = () => {
+const Hero = () => {
   const handleRegisterClick = () => {
     ReactGA.event({
       category: "Button",
       action: "click",
       label: "register",
     });
-    window.open("https://unstop.com/hackathons/hacked-20-bml-munjal-university-bmu-gurgaon-901802");
+    window.open(
+      "https://unstop.com/hackathons/hacked-20-bml-munjal-university-bmu-gurgaon-901802",
+    );
   };
   const handleCardClicks = (card) => {
     ReactGA.event({
@@ -220,9 +222,27 @@ const hero = () => {
                   <div className="flex justify-center items-center gap-1"></div>
                 </h3>
                 <div className="flex items-start justify-between flex-col">
-                <a href="https://www.instagram.com/acm_bmu/" target="_blank" class="link"><p class="text14">ACM</p></a>
-                <a href="https://www.instagram.com/sata_bmu/" target="_blank" class="link"><p class="text15">SATA</p></a>
-                <a href="https://www.instagram.com/scimat_bmu/" target="_blank" class="link"><p class="text15">SciMat</p></a>
+                  <a
+                    href="https://www.instagram.com/acm_bmu/"
+                    target="_blank"
+                    class="link"
+                  >
+                    <p class="text14">ACM</p>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/sata_bmu/"
+                    target="_blank"
+                    class="link"
+                  >
+                    <p class="text15">SATA</p>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/scimat_bmu/"
+                    target="_blank"
+                    class="link"
+                  >
+                    <p class="text15">SciMat</p>
+                  </a>
 
                   <div className="round2"></div>
                 </div>
@@ -261,4 +281,4 @@ const hero = () => {
   );
 };
 
-export default hero;
+export default Hero;
