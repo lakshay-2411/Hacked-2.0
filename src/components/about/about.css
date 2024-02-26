@@ -454,7 +454,7 @@
 }
 
 .about-srm-logo {
-  width: 7vw;
+  width: 16vw;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     width: 10vw;
   }

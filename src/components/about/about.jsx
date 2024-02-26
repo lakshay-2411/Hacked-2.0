@@ -41,30 +41,23 @@ const about = () => {
         <div className="foundation">
           <div className="foundation-title " id="about-right">
             <img
-              src="/images/bml-logo.png"
+              src="/images/67-milestone.png"
               alt="srm logo"
               className="about-srm-logo"
             />
-            67th Milestones Celebration
-            <img
+            About 67th Milestones
+            {/* <img
               src="/images/bml-logo.png"
               alt="srmvec logo"
               className="about-srmvec-logo"
-            />
+            /> */}
           </div>
           <div className="foundation-description" id="about-left">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur
-            ullam perferendis adipisci ipsa quam odit veniam placeat error
-            explicabo tenetur dolor quaerat distinctio voluptate unde velit,
-            earum ducimus vitae nemo! Debitis ut nostrum temporibus dolores aut
-            dolorum esse mollitia itaque deleniti iste labore, error dolore ab
-            repellendus repudiandae impedit eius quae cupiditate et incidunt.
-            Voluptas, illo facilis ipsa, nam veniam labore reiciendis incidunt
-            facere quas aut itaque ratione assumenda! Veritatis sunt dolorem
-            fuga ex, amet veniam ducimus aspernatur molestias corrupti eveniet
-            laborum, repudiandae laboriosam quod assumenda non consequuntur
-            deserunt maiores aliquam eaque, commodi totam autem libero omnis?
-            Eos, sed provident.
+          67th Milestone is the ultimate fusion of innovation and celebration at BML Munjal 
+          University. As the Annual Techno-Cultural-Management and Sports fest, it's a three-day 
+          extravaganza (March 1st to 3rd, 2024) filled with electrifying showcases, captivating 
+          performances, and thrilling competitions. It's where creativity meets excellence, and 
+          where memories are made to last a lifetime. 🎉
           </div>
         </div>
 
@@ -72,7 +65,7 @@ const about = () => {
           <div
             className="about-srmvec-title "
             id="about-left"
-            onClick={() => handleWebClicks("https://www.bmu.com")}
+            onClick={() => handleWebClicks("https://www.bmu.edu.in/")}
           >
             <img
               className="about-srmvec-logo"
@@ -82,81 +75,97 @@ const about = () => {
             About BMU
           </div>
           <div className="about-srmvec-description" id="about-right">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
-            nisi, iste molestiae facilis eveniet molestias laboriosam nemo
-            ratione nam architecto adipisci repellat distinctio ipsa facere modi
-            vero cum. Fugit laborum temporibus eveniet nam architecto beatae
-            consequatur, alias facilis aut odit.
+          BML Munjal University (BMU) is a beacon of innovation and creativity. Founded by the 
+          esteemed Hero Group, we're dedicated to nurturing ethical leaders equipped with the 
+          knowledge and skills to thrive in a rapidly evolving world. As a not-for-profit 
+          initiative, we aim to inspire, challenge, and transform students. Welcome to BMU, 
+          where greatness awaits.
           </div>
         </div>
         <div className="csi">
           <div
             className="about-csi-title"
             id="about-right"
-            onClick={() => handleWebClicks("http://www.bmu.com/")}
+            onClick={() => handleWebClicks("http://www.hacked24.in/")}
           >
             <img
               className="about-csi-logo"
-              src="/images/bml-logo.png"
+              src="/images/logo.png"
               alt="csi logo"
             />
-            About sata
+            About Hacked 2.0
           </div>
           <div className="about-csi-description" id="about-left">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. A officia
-            consequuntur dolores quae sequi rem? Veritatis sint quibusdam
-            dolores dolorem cupiditate mollitia reiciendis modi accusantium
-            laborum, nisi aut eum porro exercitationem deleniti praesentium
-            obcaecati. Amet nobis soluta, fuga eum sapiente itaque id iure
-            recusandae magnam inventore perferendis qui odit laborum quas
-            necessitatibus repudiandae eligendi cupiditate incidunt vel tenetur
-            magni corrupti!
+          Hacked 2.0 isn't just a hackathon; it's a revolution in innovation. Dedicated to 
+          pushing the boundaries of creativity and problem-solving, Hacked 2.0 focuses on UN 
+          sustainable development goals. Join us for an exhilarating journey of coding, 
+          collaboration, and making a difference. Welcome to Hacked 2.0, where innovation knows 
+          no bounds! 🚀
+
           </div>
         </div>
         <div className="whitehatians">
           <div
             className="about-whitehatians-title"
             id="about-left"
-            onClick={() => handleWebClicks("https://www.bmu.com")}
+            onClick={() => handleWebClicks("https://www.herody.in/")}
           >
             <img
               className="about-whitehatians-logo"
-              src="/images/bml-logo.png"
+              src="/images/herody.png"
               alt="whitehatians logo"
             />
-            About acm
+            About Herody
           </div>
           <div className="about-whitehatians-description" id="about-right">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-            officiis modi, eligendi iste accusantium excepturi adipisci deleniti
-            totam doloribus quis explicabo, dolorem laborum nemo soluta
-            blanditiis! Excepturi velit rerum dolorem, commodi sequi sit omnis
-            facere tempore aut, illum quaerat dicta et consectetur! Veritatis
-            vitae nobis repellendus dolores! Impedit, blanditiis esse.
+          Herody is the ultimate ally for brands, facilitating target achievement by harnessing 
+          the power of student gig workers. Empowering youths to earn and grow remotely while 
+          offering brands a seamless platform to engage with the vibrant college demographic. 
+          With a vast network and innovative services, herody is transforming marketing to 
+          millennials.
           </div>
         </div>
         <div className="csi">
           <div
             className="about-csi-title"
             id="about-right"
-            onClick={() => handleWebClicks("http://www.bmu.com/")}
+            onClick={() => handleWebClicks("https://unstop.com/")}
           >
             <img
               className="about-csi-logo"
-              src="/images/bml-logo.png"
+              src="/images/unstop.png"
               alt="csi logo"
             />
-            About SciMat
+            About Unstop
           </div>
           <div className="about-csi-description" id="about-left">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. A officia
-            consequuntur dolores quae sequi rem? Veritatis sint quibusdam
-            dolores dolorem cupiditate mollitia reiciendis modi accusantium
-            laborum, nisi aut eum porro exercitationem deleniti praesentium
-            obcaecati. Amet nobis soluta, fuga eum sapiente itaque id iure
-            recusandae magnam inventore perferendis qui odit laborum quas
-            necessitatibus repudiandae eligendi cupiditate incidunt vel tenetur
-            magni corrupti!
+          Unstop is where talent meets opportunity, connecting students and freshers 
+          worldwide to their dream careers. It's more than a platform; it's a playground 
+          for unlocking potential, showcasing skills, and gaining CV points. With a global 
+          reach, Unstop empowers individuals to #BeUnstoppable in their academic and career 
+          journeys.
+          </div>
+        </div>
+        <div className="whitehatians">
+          <div
+            className="about-whitehatians-title"
+            id="about-left"
+            onClick={() => handleWebClicks("hhttps://www.codingblocks.com/")}
+          >
+            <img
+              className="about-whitehatians-logo"
+              src="/images/codingBlock.png"
+              alt="whitehatians logo"
+            />
+            About Coding Blocks
+          </div>
+          <div className="about-whitehatians-description" id="about-right">
+          Coding Blocks, founded in 2014, is committed to shaping skilled software engineers 
+          for the global stage. Our mission is to narrow the gap between industry demands and 
+          conventional education by offering immersive, hands-on training. At Coding Blocks, 
+          we believe in practical learning that goes beyond theory. With industry-aligned courses 
+          and project-based learning, we ensure our students are well-equipped to thrive in the 
+          tech world. Embark on a journey of growth and innovation with Coding Blocks!
           </div>
         </div>
       </div>
