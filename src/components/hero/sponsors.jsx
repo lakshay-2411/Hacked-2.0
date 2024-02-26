@@ -30,6 +30,22 @@ const sponsors = () => {
               </h1>
             </div>
           </div>
+          <div className="sponsors-border">
+            <a href="https://unstop.com/" rel="noreferrer" target="_blank">
+              <img src="/images/unstop.png" />
+            </a>
+            <div className="sponsors-container-sub">
+              <h1 className="sponsor-title">
+                <a
+                  href="https://unstop.com/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Unstop
+                </a>
+              </h1>
+            </div>
+          </div>
         </div>
         <Faqs />
         {<Contact /> }

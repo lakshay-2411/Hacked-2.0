@@ -53,7 +53,7 @@ const convener = () => {
                 alt="convenerimg"
                 style={{height: '15rem', width: '15rem'}}
               />
-              <h1 className="convener-name fourth"> All participants will get Hacked 2.0 certificates</h1>
+              <h1 className="convener-name fourth"> Certificate of Participation</h1>
             </div>
           </div>
         </div>
