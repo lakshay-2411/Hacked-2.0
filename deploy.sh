@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "Switching to branch bg"
-git checkout bg 
+git checkout main
 
 echo "Building app"
 yarn build

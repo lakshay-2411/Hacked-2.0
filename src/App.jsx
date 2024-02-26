@@ -29,6 +29,7 @@ export default function App() {
 
   useEffect(() => {
     if (!loading) {
+      document.body.classList.toggle("body-image");
       document.querySelector(".app").classList.add("fadein");
     }
   }, [loading]);
